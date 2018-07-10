@@ -17,6 +17,9 @@ describe "change_rainbow_colors" do
     converted_rainbow.each { |c| 2.times { 45.times {print "\u2588".colorize(c)}; puts "" } }
     puts ""
     rainbow_colors = change_rainbow_colors
+    array = []
+    array[0]=pink 
+    array[
     expect(rainbow_colors).to be_kind_of(Array), "Method must return an array"
     converted_rainbow = rainbow_colors.map {|color| color.to_sym}
     converted_rainbow.each { |c| 2.times { 45.times {print "\u2588".colorize(c)}; puts "" } }
