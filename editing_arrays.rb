@@ -20,4 +20,5 @@ def add_colors
  array
  array[4]=blue
  array
+ array
 end
